@@ -5,7 +5,38 @@ import {
 } from "../actions/contact_actions";
 import merge from "lodash/merge"
 
-const initialState = {};
+const initialState = {
+  "Chris": {
+    id: 1,
+    name: "Chris",
+    email: "chris@mail.com",
+    phone: "02-12345678"
+  },
+  "Joan": {
+    id: 2,
+    name: "Joan",
+    email: "joan@mail.com",
+    phone: "02-22345678"
+  },
+  "Kenneth": {
+    id: 3,
+    name: "Kenneth",
+    email: "kenneth@mail.com",
+    phone: "02-32345678"
+  },
+  "Amy": {
+    id: 4,
+    name: "Amy",
+    email: "amy@mail.com",
+    phone: "02-42345678"
+  },
+  "Michelle": {
+    id: 5,
+    name: "Michelle",
+    email: "michelle@mail.com",
+    phone: "02-52345678"
+  }
+};
 
 const contactReducer = (state = initialState, action) => {
   Object.freeze(state);
