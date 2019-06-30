@@ -1,0 +1,101 @@
+.page-title {
+  text-align: center;
+}
+
+.main-component {
+  width:80%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-table {
+  align-self: center;
+  padding: 5px;
+  justify-content: center;
+}
+
+#form-modal {
+  padding: 5px;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.4);
+}
+
+#form-content {
+  margin: 15% auto;
+  background: #FFFFFF;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 40%;
+}
+
+#new-button {
+  margin-bottom: 20px;
+  align-self: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form > label {
+  width: 100%;
+  align-self: center;
+  margin: 5px;
+}
+
+form > label > input {
+  width: 85%;
+  float: right
+}
+
+.button-holder {
+  width: 100px;
+  align-self: center;
+  justify-content: space-between;
+  display: flex;
+}
+
+.button-holder > button {
+  font-size: 15px;
+}
+
+.error-content {
+  color: #FD1A1A;
+  margin: 8px 0px;
+}
+
+table {
+  width: 100%;
+  border: 1px solid #ddd;
+  border-collapse: collapse;
+}
+
+th, td {
+  border-bottom: 1px solid #ddd;
+  padding: 15px;
+  text-align: center;
+}
+
+button {
+  border: 1px solid #ABABAB;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #E3E3E3;
+  cursor: pointer;
+}
+
+.no-data-string {
+  text-align: center;
+}
